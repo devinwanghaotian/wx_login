@@ -1,0 +1,43 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/find/find",
+        "pages/me/me"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#90b5f8",
+        "navigationBarTitleText": "读书分享会",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#00000",
+        "selectedColor": "#1296db",
+        "list": [
+            {
+                "selectedIconPath": "images/find_on.png",
+                "iconPath": "images/find.png",
+                "pagePath": "pages/find/find",
+                "text": "发现"
+            },
+            {
+                "selectedIconPath": "images/index_on.png",
+                "iconPath": "images/index.png",
+                "pagePath": "pages/index/index",
+                "text": "首页"
+            },
+            {
+                "selectedIconPath": "images/me_on.png",
+                "iconPath": "images/me.png",
+                "pagePath": "pages/me/me",
+                "text": "我的"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json",
+    "usingComponents": {
+        "van-button": "@vant/weapp/button/index",
+        "van-dialog": "@vant/weapp/dialog/index"
+    }
+}
